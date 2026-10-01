@@ -1,0 +1,293 @@
+/* This is for the body of the website*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #acc7ed;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("download\ \(2\).gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: transition 0.3s ease-in-out;
+}
+/*Background image of the home*/
+.body2 {
+    background-image: url("love.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+/*Background image of menu*/
+.body3 {
+    background-image: url("love.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 202vh;
+}
+/* Login n Registration form*/
+form {
+    margin-left: 600px;
+    margin-top: 90px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    outline-style: double;
+    outline-color: #6b9c70;
+    backdrop-filter: blur(10px);
+}
+input[type="text"],
+    input[type="password"]
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+    background: transparent;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border: 2px solid #7a837b;
+    border-radius: 40px;
+}
+input::placeholder {
+    color: #ffffff;
+
+}
+input[type="date"] {
+    color: #ffffff;
+}
+input[type="submit"] {
+    background-color: #84d28c;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Link color*/
+a {
+color: rgb(125, 213, 143);
+text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header {
+    background-color: #313431;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header .nav-home{
+    margin-left: 720px;
+}
+footer {
+    background-color: #313431;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.5;
+}
+/*footer in register form*/
+.footer2{
+    position: relative;
+}
+/*in home*/
+.footer3{
+    position: relative;
+    margin-top: -56px;
+}
+/* in menu*/
+.footer4 {
+    position: relative;
+    margin-top: 156px;
+}
+/*This is for the blurry background*/
+.home {
+  height: 920px;
+  width: 1000px;
+  background-color: rgba(41, 66, 46, 0.6);
+  margin-left: 280px;
+  margin-top: 50px;
+  line-height: 25px;
+  padding-top: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+
+}
+/* This is for the h1 text design*/
+.home h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* This is for the h2 text style*/
+.home h2 {
+    width: 90%;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #3d4f42;
+    border-radius: 8px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/* This is for the style of p */
+.order {
+    height: 20px;
+    width: 200px;
+    color: #ffffff;
+    margin-left: 400px;
+    opacity: 0.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Aligning the text in p*/
+.order2 {
+    margin-top: 30px;
+    text-align: center;
+}
+/* This is for the image in home*/
+img {
+    margin-left: 250px;
+    border-radius: 8px;
+    outline-style: double;
+    outline-color:#4c6a50;
+    opacity: 0.9;
+}
+/* This is for the first menu style*/
+.menu1 {
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(30, 54, 35, 0.6);
+    color: #364f36;
+    margin-left: 280px;
+    margin-top: 50px;
+    line-height: 25px;
+    padding-top: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu1 h2 {
+    color: rgb(174, 234, 186, 0.5);
+}
+/* This is for the foods border style*/
+.menu{
+    display: inline-block;
+    width: 210px;
+    height: 255px;
+    background-color: rgba(173, 190, 176, 0.5);
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    outline-style: solid;
+    outline-color: #6a866d;
+}
+/* This is for the food/drinks images*/
+.menu img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+/* This is for the second menu drinks*/
+.menudrinks {
+    height: 460px;
+    width: 1000px;
+    background-color: rgba(41, 66, 46, 0.6); 
+    color: #313431;
+    margin-left: 280px;
+    margin-top: 50px;
+    line-height: 25px;
+    padding-top: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menudrinks h2 {
+    color: rgb(174, 234, 186, 0.5);
+}
+/* This is for the add to order style*/
+.menu button {
+    height: 15%;
+    width: 80%;
+    background-color: rgba(54, 64, 56, 0.5) ;
+    color: rgb(153, 211, 165);
+    margin-top: 40px;
+    outline-style: double;
+    outline-color: #b2d0b6;
+    border: 0px solid #7a837b;
+    border-radius: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu button:hover{
+    transform: scale(1.2);
+    transition: all ease 0.3s;
+}
+/* ... Your existing CSS ... */
+
+/* Cart Styling */
+#cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(86, 118, 90, 0.8); /* White with slight transparency */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Ensure it's on top */
+    width: 300px; /* Adjust width as needed */
+}
+
+#cart h2 {
+    color: #161716; /* Dark gray */
+}
+
+#cart-items li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+#cart button {
+    background-color: #475d49; /* Green */
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.cart-item {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.CartButton {
+    margin-left: 20px;
+}

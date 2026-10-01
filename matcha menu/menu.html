@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <title>Matcha Feels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Matcha Feels</h1>
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 10px;">
+        <nav class="nav-home">
+            <a href="home.html">HOME</a>
+        </nav>
+        <a href="#" id="cart-toggle" style="margin-left: auto; color: #ffffff;" onclick="toggleCart()">Cart</a>
+    </div>
+    
+</header>
+<body class="body3">
+<div class="menu1">
+    <h2>Matcha Desserts</h2>
+    <div class="menu">
+        <img src="cake1.jpeg">
+        <p><b>Matcha Crepe<br>₱569</b></p></b></p>
+        <button onclick="addToCart('Matcha Crepe', 569)">Add to order</button>
+    </div>
+    <div class="menu">
+        <img src="swissroll.jpeg">
+        <p><b>Matcha Swiss Roll Cake<br>₱459</b></p>
+        <button onclick="addToCart('Matcha Swiss Roll Cake', 459)">Add to order</button>
+    </div>
+    <div class="menu">
+        <img src="macaron3.jpeg">
+        <p><b>Matcha Macaroons<br>₱399</b></p>
+        <button onclick="addToCart('Matcha Macaroons', 399)">Add to order</button>
+    </div>
+    <div class="menu">
+        <img src="match.jpeg">
+        <p><b>Matcha Cake<br>₱599</b></p>
+        <button onclick="addToCart('Matcha Cake', 599)">Add to order</button>
+    </div>
+</div>
+<div class="menudrinks">
+    <h2>Matcha Drinks</h2>
+    <div class="menu">
+        <img src="kopi1.jpeg">
+        <p><b>Matcha Latte<br>₱99</b></p>
+        <button onclick="addToCart('Matcha Latte', 99)">Add to order</button>
+    </div>
+    <div class="menu">
+        <img src="boba.jpeg">
+        <p><b>Matcha Boba Tea<br>₱99</b></p>
+        <button onclick="addToCart('Matcha Boba Tea', 99)">Add to order</button>
+    </div>
+    <div class="menu">
+        <img src="iced.jpeg">
+        <p><b>Ice Matcha Latte<br>₱99</b></p>
+        <button onclick="addToCart('Ice Matcha Latte', 99)">Add to order</button>
+    </div>
+    <div class="menu">
+        <img src="frappe.jpeg">
+        <p><b>Matcha Frappe<br>₱99</b></p>
+        <button onclick="addToCart('Matcha Frappe', 99)">Add to order</button>
+    </div>
+</div><br><br><br><br><br><br><br><br><br>
+<footer class="footer3">
+    <p><small>&copy; 2024 Matcha Feels.  All rights reserved.</small></p>
+    <hr>
+    <p><small><b>Contact Us: <br>Email:</b> javinalcristine@gmail.com<br><b>Contact Number:</b> 09123456789</small></p>
+</footer>
+<div id="cart">
+  <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <p>Total: ₱<span id="total">0</span></p>
+  <button onclick="checkout()">Checkout</button>
+  <button onclick="toggleCart()">Close</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
